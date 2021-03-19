@@ -8,6 +8,5 @@ OBJ=main.o
 mainmake: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
-
 clean:
 
